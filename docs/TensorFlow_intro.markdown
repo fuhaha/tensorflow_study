@@ -72,6 +72,13 @@ mul = tf.multiply(a,b)
 with tf.Session() as sess:
 	print ("Multiplication with valiables : {}".format(sess.run(mul, feed_dict = {a:2, b:3})))
 ~~~
-### [용어]=====================
-** 텐서 (tensor) : 명사[수학][물리학]
-3차원 공간에 있어서 9개의 성분을 가지며, 좌표 변환에 의해 좌표 성분의 곱과 같은 형의 변환을 받는 양. 예를 들면, 물체의 관성 모멘트나 변형은 이것으로 표시됨.
+
+## 개념 정리
+![](images/programming.jpg?raw=true)
+
+![](images/machineLearning.jpg?raw=true)
+
+### [용어] Wikipedia 참조
+** 텐서(tensor) : 수학과 물리학에서 서로 약간 다른 의미로 사용되는 개념이다. 수학의 다중선형대수학 및 미분기하학 등의 분야에서 텐서는 간단히 말하면 다중선형함수이다. 텐서장이란 기하학적 공간의 각 점마다 위 의미의 텐서가 하나씩 붙어 있는 것을 가리키는데, 물리학과 공학 등에서는 텐서장을 단순히 '텐서'라 부르는 경우도 많다.
+
+** Linear Regression : 통계학에서, 선형 회귀(線型回歸, 영어: linear regression)는 종속 변수 y와 한 개 이상의 독립 변수 (또는 설명 변수) X와의 선형 상관 관계를 모델링하는 회귀분석 기법이다. 한 개의 설명 변수에 기반한 경우에는 단순 선형 회귀, 둘 이상의 설명 변수에 기반한 경우에는 다중 선형 회귀라고 한다.
