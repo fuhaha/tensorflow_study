@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+# 2017년 늦겨울: Tensorflow study
 
-You can use the [editor on GitHub](https://github.com/fuhaha/tensorflow_study/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+*****************************************************************
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* 이 저장소는 Tensorflow 스터디한 자료를 모아둔 곳입니다.
+  기 스터디 참여 구성원분들 자료응 이곳에 등록하여 공유했으면 좋을것 같습니다.
 
-### Markdown
+*****************************************************************
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 스터디 개요 (Overview)
 
-```markdown
-Syntax highlighted code block
+* 스터디 주제 : Studying __Tensorflow__
 
-# Header 1
-## Header 2
-### Header 3
+  * 책 :
+    * 조르디 토렌스 지음, 박햬선 옮김, "텐서플로 첫걸음", 한빛미디어, 2016.
 
-- Bulleted
-- List
+  * 진행 방식 :
+    * 모두 책 읽어보기
+    * 주 단위로 1명씩 돌아가면서 책 1장에 대한 전체적인 진행을 맡음
+     (단, 양이 많은 장은 절반 등으로 나누어 진행)
+    * 서로 긍정적인 피드백 및 토론하기
 
-1. Numbered
-2. List
+  * 내용
+    * [1장: 텐서플로 기본 다지기](docs/TensorFlow_intro.markdown)
+      * [Ubuntu16.04에서 GPU 기반의 tensorflow 설치하기](docs/install_tensorflow_gpu_to_ubuntu16.04.markdown)
+    * [2장: 선형회기분석](docs/Linear_Regression.markdown)
+    * 3장: 군집화
+    * 4장: 단일 계층 신경망
+    * 5장: 다층 계층 신경망
+    * 6장: 병렬처리
+    * 7장: 마치며
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+## 참고 자료 (Reference)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* 모두를 위한 머신러닝/딥러닝 강의
+  * https://hunkim.github.io/ml/
 
-### Jekyll Themes
+* Coursera - Machine Learning - Andrew Ng
+  * https://www.coursera.org/learn/machine-learning
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fuhaha/tensorflow_study/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
