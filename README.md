@@ -1,7 +1,7 @@
-# 2017년 겨울 끝자락: Tensorflow study
+# Tensorflow study : (2017년 여름의 시작) 
 * 적성자 : 전성욱
 * 작성일 : 2017/03/28
-* 수정일 : 2017/03/30
+* 수정일 : 2017/05/14
 *****************************************************************
 
 * 이 저장소는 Tensorflow 스터디한 자료를 모아둔 곳입니다.
@@ -22,12 +22,12 @@
     * 서로 긍정적인 피드백 및 토론하기
 
   * 내용
-    * [1장: 텐서플로 기본 다지기](docs/TensorFlow_intro.markdown)
-      * [Ubuntu16.04에서 GPU 기반의 tensorflow 설치하기](docs/install_tensorflow_gpu_to_ubuntu16.04.markdown)
-    * [2장: 선형회기분석](docs/Linear_Regression.markdown)
+    * [1장: 텐서플로 기본 다지기](docs/chapter1/TensorFlow_intro.markdown)
+      * [Ubuntu16.04에서 GPU 기반의 tensorflow 설치하기](docs/chapter1/install_tensorflow_gpu_to_ubuntu16.04.markdown)
+    * [2장: 선형회기분석](docs/chapter2/Linear_Regression.markdown)
     * 3장: 군집화
     * 4장: 단일 계층 신경망
-    * 5장: 다층 계층 신경망
+    * [5장: 다층 계층 신경망](docs/chapter5/5.Multi_Layer_Neural_Network.markdown)
     * 6장: 병렬처리
     * 7장: 마치며
 
