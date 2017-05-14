@@ -402,14 +402,19 @@ print("test accuracy %g"% sess.run(accuracy, feed_dict={
 ~~~
 
 ### 참조 
-문서 : Tensorflow Site문서 (https://www.tensorflow.org/get_started/mnist/pros)
+문서 : Tensorflow Site문서(https://www.tensorflow.org/get_started/mnist/pros)
+
 소스코드 : tensorflow github source내 예제소스(https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/tutorials/mnist) : mnist_deep.py
 
 ### 참조 자료 (강재호님 추천)
 [Bias vs. Variance](http://gnujoow.github.io/ml/2016/09/01/ML8-Bias-vs-Variance/)
+
 [MNIST Demos on Yann LeCun's website](http://yann.lecun.com/exdb/lenet/)
+
 [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/convolutional-networks/)
+
 [HANDWRITTEN DIGITS RECOGNITION USING DEEP LEARNING](https://faisalorakzai.wordpress.com/2016/06/01/handwritten-digits-recognition-using-deep-learning/)
+
 [What is the difference between convolutional neural networks, restricted Boltzmann machines, and auto-encoders?](https://stats.stackexchange.com/questions/114385/what-is-the-difference-between-convolutional-neural-networks-restricted-boltzma)
 
 
