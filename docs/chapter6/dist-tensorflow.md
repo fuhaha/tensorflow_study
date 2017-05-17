@@ -291,16 +291,16 @@ tf.Variable, tf.Const를 선언할때 gpu를 지정가능.해당 변수 혹은 �
 
 tensorflow 는 데이터처리 병렬화를 지원 
 
-![dist-tensorflow](./dist-tensorflow.png)
+![dist-tensorflow](images/dist-tensorflow.png)
 
-![model1](./model1.png)
+![model1](images/model1.png)
 
 
 
 단일 머신에서의 분산 처리 
 
 
-![model2](./model2.png)
+![model2](images/model2.png)
 
 
 Cluster 구성 요소
@@ -424,7 +424,7 @@ tensorflow를 통해 작성된 그래프의 크기가 단일 머신보다 크다
 
 
 
-![264-large-scale-deeplearningonspark-41-638](./264-large-scale-deeplearningonspark-41-638.jpg)
+![264-large-scale-deeplearningonspark-41-638](images/264-large-scale-deeplearningonspark-41-638.jpg)
 
 대안 : 모델 병렬화
 
@@ -436,9 +436,9 @@ ps. 라이버러리에서 지원되는지 여부는 모름.
 
 [관련논문](https://arxiv.org/pdf/1404.5997v2.pdf)
 
-![tensortraining](./effect.png)
+![tensortraining](images/effect.png)
 
-![tensortraining](./tensortraining.jpg)			
+![tensortraining](images/tensortraining.jpg)			
 
 
 
