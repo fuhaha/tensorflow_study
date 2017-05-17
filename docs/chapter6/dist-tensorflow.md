@@ -476,3 +476,6 @@ CUDA_VISIBLE_DEVICES=1 python distributed_mnist.py --ps_hosts=192.168.0.20:2222,
     # with tf.device(tf.train.replica_device_setter(
     #     worker_device="/job:worker/task:%d/gpu:0" % FLAGS.task_index,
     #     cluster=cluster)):
+
+
+다시 돌릴 땐 /tmp/training 을 지운다 ???
