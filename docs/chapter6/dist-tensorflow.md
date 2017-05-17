@@ -478,7 +478,7 @@ CUDA_VISIBLE_DEVICES=1 python distributed_mnist.py --ps_hosts=192.168.0.20:2222,
     #     cluster=cluster)):
 
 
-다시 돌릴 땐 /tmp/training 을 지운다 ???
+다시 돌릴 땐 /tmp/train_logs 을 지운다 ???
 
 nvidia-smi로 GPU 사용률 보기
 nvidia-smi -l n(숫자)
