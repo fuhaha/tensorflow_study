@@ -328,8 +328,8 @@ ClusterSpec 생성
 
 | tf.train.ClusterSpec 생성자                 |      |
 | ---------------------------------------- | ---- |
-| tf.train.ClusterSpec({"local":["localhost:2222","localhost:2223"]}) |      |
-| tf.train.ClusterSpec({"worker":["worker0.example.com:2222","worker1.example.com:2222","worker2.example.com:2222"],"ps":["ps0.example.com:2222","ps1.example.com:2222"]}) |      |
+| tf.train.ClusterSpec({"local":["localhost:2222","localhost:2223"]}) | Local |
+| tf.train.ClusterSpec({"worker":["worker0.example.com:2222","worker1.example.com:2222","worker2.example.com:2222"],"ps":["ps0.example.com:2222","ps1.example.com:2222"]}) | Cluster |
 
 Cluster server 객체 생성
 Cluster Server는 tf.train.Server객체를 생성 한다.
@@ -341,7 +341,7 @@ Cluster Server는 tf.train.Server객체를 생성 한다.
 두개의 서버를 가지는 클러스터를 구동 하려면 아래와 같이 수행 하면 된다.
 
 \#0번 작업
-cluster = tf.train.SlusterSpec({"local":
+cluster = tf.train.ClusterSpec({"local":
 ["localhost:2222","localhost:2223"]})
 server = tf.train.Server(cluster, job_name="local", task_index=0)
 
